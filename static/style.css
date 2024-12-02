@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    font-family: Arial, sans-serif;
+
+    /* Background Image Styling */
+    background-image: url("../static/whale2.jpg");
+    background-size: cover; /* Ensures the image covers the full screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+.login {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%; /* Responsive width */
+}
+
+
+input[type="text"],
+select {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.date-select {
+    display: flex;
+    justify-content: space-between; /* Space the dropdowns evenly */
+    gap: 10px; /* Add space between dropdowns */
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#predi {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
